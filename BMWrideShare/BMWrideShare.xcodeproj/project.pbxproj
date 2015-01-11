@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F6DDF01A6249E500901CEA /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F6DDEF1A6249E500901CEA /* Window.xib */; };
 		01F6DE121A62601D00901CEA /* _i3_.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F6DE111A62601D00901CEA /* _i3_.png */; };
 		01F6DE161A62618200901CEA /* Back_R.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F6DE131A62618200901CEA /* Back_R.png */; };
 		01F6DE171A62618200901CEA /* Back_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F6DE141A62618200901CEA /* Back_L.png */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F6DDEF1A6249E500901CEA /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 		01F6DE111A62601D00901CEA /* _i3_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _i3_.png; sourceTree = "<group>"; };
 		01F6DE131A62618200901CEA /* Back_R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_R.png; sourceTree = "<group>"; };
 		01F6DE141A62618200901CEA /* Back_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_L.png; sourceTree = "<group>"; };
@@ -59,6 +57,7 @@
 		6925A7CA1A62224900DFD69F /* BMWrideShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWrideShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6925A7CF1A62224900DFD69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6925A7D01A62224900DFD69F /* BMWrideShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWrideShareTests.swift; sourceTree = "<group>"; };
+		6990E02F1A62C01C00AF8B65 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		8358C8295EB5DECBAA6DBE1C /* Pods-BMWrideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWrideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMWrideShare/Pods-BMWrideShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,8 +125,8 @@
 				6925A7BE1A62224900DFD69F /* Main.storyboard */,
 				6925A7C11A62224900DFD69F /* Images.xcassets */,
 				6925A7C31A62224900DFD69F /* LaunchScreen.xib */,
-				01F6DDEF1A6249E500901CEA /* Window.xib */,
 				6925A7B81A62224900DFD69F /* Supporting Files */,
+				6990E02F1A62C01C00AF8B65 /* Bridging-Header.h */,
 			);
 			path = BMWrideShare;
 			sourceTree = "<group>";
@@ -249,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F6DE321A629ECE00901CEA /* SS.png in Resources */,
-				01F6DDF01A6249E500901CEA /* Window.xib in Resources */,
 				01F6DE171A62618200901CEA /* Back_L.png in Resources */,
 				01F6DE2F1A628AF800901CEA /* Back_R_o.png in Resources */,
 				01F6DE2A1A626C7B00901CEA /* shmoney.png in Resources */,
