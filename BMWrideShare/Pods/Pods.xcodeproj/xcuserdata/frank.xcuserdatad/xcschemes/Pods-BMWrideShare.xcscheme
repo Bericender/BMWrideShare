@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F16B2991F02A7ACD59A8D6"
+               BlueprintIdentifier = "1EB69B897713AFFA34AFC0A4"
                BuildableName = "libPods-BMWrideShare.a"
                BlueprintName = "Pods-BMWrideShare"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -29,6 +29,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+            BuildableName = "BMWrideShare.app"
+            BlueprintName = "BMWrideShare"
+            ReferencedContainer = "container:../BMWrideShare.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -39,15 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8F16B2991F02A7ACD59A8D6"
-            BuildableName = "libPods-BMWrideShare.a"
-            BlueprintName = "Pods-BMWrideShare"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+            BuildableName = "BMWrideShare.app"
+            BlueprintName = "BMWrideShare"
+            ReferencedContainer = "container:../BMWrideShare.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,7 +69,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8F16B2991F02A7ACD59A8D6"
+            BlueprintIdentifier = "1EB69B897713AFFA34AFC0A4"
             BuildableName = "libPods-BMWrideShare.a"
             BlueprintName = "Pods-BMWrideShare"
             ReferencedContainer = "container:Pods.xcodeproj">

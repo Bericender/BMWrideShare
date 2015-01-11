@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         
     }
     @IBOutlet weak var FrontRightSeat: UIImageView!
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,13 +29,15 @@ class ViewController: UIViewController {
     
     func toggleFrontRight() {
         if (self.FrontRightSeat.alpha == 0) {
-            self.FrontRightSeat.alpha = 1
+            UIView.animateWithDuration(0.3, animations: { () -> Void in
+                self.FrontRightSeat.alpha = 1;
+            })
+            
         } else {
             self.FrontRightSeat.alpha = 0
         }
     }
-
-
+   
     @IBAction func onButton(sender: AnyObject) {
         toggleFrontRight()
     }
