@@ -1,0 +1,25 @@
+<project name="mojio-observer" basedir="." default="main">
+  <property name="signalr-dir" value="/home/justin/signalr-java-client"/>
+
+  <path id="classpath">
+    <fileset dir="/usr/share/java" includes="gson.jar"/>
+    <fileset dir="/usr/local/share/java" includes="zmq.jar"/>
+    <fileset dir="${signalr-dir}/signalr-client-sdk/build/libs" includes="**/*.jar"/>
+  </path>
+
+  <target name="clean">
+    <delete dir="build"/>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="build/classes"/>
+    <javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false"/>
+  </target>
+
+  <target name="jar" depends="compile">
+    <mkdir dir="build/jar"/>
+    <jar destfile="build/jar/mojio-observer.jar" basedir="build/classes"/>
+  </target>
+
+  <target name="main" depends="clean,jar"/>
+</project>
