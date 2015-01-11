@@ -57,7 +57,7 @@
 		6925A7CA1A62224900DFD69F /* BMWrideShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWrideShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6925A7CF1A62224900DFD69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6925A7D01A62224900DFD69F /* BMWrideShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWrideShareTests.swift; sourceTree = "<group>"; };
-		6990E02F1A62C01C00AF8B65 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		6990E0301A62CAB600AF8B65 /* BMWrideShare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMWrideShare-Bridging-Header.h"; sourceTree = "<group>"; };
 		8358C8295EB5DECBAA6DBE1C /* Pods-BMWrideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWrideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMWrideShare/Pods-BMWrideShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +126,7 @@
 				6925A7C11A62224900DFD69F /* Images.xcassets */,
 				6925A7C31A62224900DFD69F /* LaunchScreen.xib */,
 				6925A7B81A62224900DFD69F /* Supporting Files */,
-				6990E02F1A62C01C00AF8B65 /* Bridging-Header.h */,
+				6990E0301A62CAB600AF8B65 /* BMWrideShare-Bridging-Header.h */,
 			);
 			path = BMWrideShare;
 			sourceTree = "<group>";
@@ -436,9 +436,12 @@
 			baseConfigurationReference = 8358C8295EB5DECBAA6DBE1C /* Pods-BMWrideShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BMWrideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMWrideShare/BMWrideShare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -447,9 +450,11 @@
 			baseConfigurationReference = 0991501025FB48C60214F928 /* Pods-BMWrideShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BMWrideShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMWrideShare/BMWrideShare-Bridging-Header.h";
 			};
 			name = Release;
 		};
