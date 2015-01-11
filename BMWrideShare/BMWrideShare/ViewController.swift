@@ -9,8 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var Frontseat: UIImageView!
+    
+    @IBAction func onStart(sender: AnyObject) {
+        self.performSegueWithIdentifier("fromStartToMainSegue", sender: self)
+        
+    }
+    @IBOutlet weak var FrontRightSeat: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,7 +24,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func toggleFrontRight() {
+        if (self.FrontRightSeat.alpha == 0) {
+            self.FrontRightSeat.alpha = 1
+        } else {
+            self.FrontRightSeat.alpha = 0
+        }
+    }
 
 
+    @IBAction func onButton(sender: AnyObject) {
+        toggleFrontRight()
+    }
 }
 
