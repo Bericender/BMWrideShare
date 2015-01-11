@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E58FA25E-D5FA-48B5-BF6E-0D8BFA914629</string>
+	<string>E57A969C-41B1-4C8F-8860-D6CF610ACF03</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BMW RideShare</string>
+	<string>BMWrideShare</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>82A7F3738F3A4F477608258B39B14C9131E4D6FD</key>
 		<string>https://github.com/bericender/BMWrideShare</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BMW RideShare.xcodeproj</string>
+	<string>BMWrideShare.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>82A7F3738F3A4F477608258B39B14C9131E4D6FD</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/bericender/BMWrideShare</string>

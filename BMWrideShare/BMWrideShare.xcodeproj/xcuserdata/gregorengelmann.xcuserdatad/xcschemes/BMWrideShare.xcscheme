@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69C589A11A620E20003692B7"
-               BuildableName = "BMW RideShare.app"
-               BlueprintName = "BMW RideShare"
-               ReferencedContainer = "container:BMW RideShare.xcodeproj">
+               BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+               BuildableName = "BMWrideShare.app"
+               BlueprintName = "BMWrideShare"
+               ReferencedContainer = "container:BMWrideShare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69C589B61A620E21003692B7"
-               BuildableName = "BMW RideShareTests.xctest"
-               BlueprintName = "BMW RideShareTests"
-               ReferencedContainer = "container:BMW RideShare.xcodeproj">
+               BlueprintIdentifier = "6925A7C91A62224900DFD69F"
+               BuildableName = "BMWrideShareTests.xctest"
+               BlueprintName = "BMWrideShareTests"
+               ReferencedContainer = "container:BMWrideShare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69C589B61A620E21003692B7"
-               BuildableName = "BMW RideShareTests.xctest"
-               BlueprintName = "BMW RideShareTests"
-               ReferencedContainer = "container:BMW RideShare.xcodeproj">
+               BlueprintIdentifier = "6925A7C91A62224900DFD69F"
+               BuildableName = "BMWrideShareTests.xctest"
+               BlueprintName = "BMWrideShareTests"
+               ReferencedContainer = "container:BMWrideShare.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69C589A11A620E20003692B7"
-            BuildableName = "BMW RideShare.app"
-            BlueprintName = "BMW RideShare"
-            ReferencedContainer = "container:BMW RideShare.xcodeproj">
+            BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+            BuildableName = "BMWrideShare.app"
+            BlueprintName = "BMWrideShare"
+            ReferencedContainer = "container:BMWrideShare.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69C589A11A620E20003692B7"
-            BuildableName = "BMW RideShare.app"
-            BlueprintName = "BMW RideShare"
-            ReferencedContainer = "container:BMW RideShare.xcodeproj">
+            BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+            BuildableName = "BMWrideShare.app"
+            BlueprintName = "BMWrideShare"
+            ReferencedContainer = "container:BMWrideShare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69C589A11A620E20003692B7"
-            BuildableName = "BMW RideShare.app"
-            BlueprintName = "BMW RideShare"
-            ReferencedContainer = "container:BMW RideShare.xcodeproj">
+            BlueprintIdentifier = "6925A7B41A62224900DFD69F"
+            BuildableName = "BMWrideShare.app"
+            BlueprintName = "BMWrideShare"
+            ReferencedContainer = "container:BMWrideShare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

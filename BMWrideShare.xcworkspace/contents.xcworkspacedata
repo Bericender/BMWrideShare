@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BMW RideShare.xcodeproj">
+      location = "group:BMWrideShare/BMWrideShare.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BMW RideShare
+//  BMWrideShare
 //
 //  Created by psxge on 10/01/15.
 //  Copyright (c) 2015 Htd. All rights reserved.

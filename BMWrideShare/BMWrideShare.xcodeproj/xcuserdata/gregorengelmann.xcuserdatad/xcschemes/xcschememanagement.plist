@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BMW RideShare.xcscheme</key>
+		<key>BMWrideShare.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>69C589A11A620E20003692B7</key>
+		<key>6925A7B41A62224900DFD69F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69C589B61A620E21003692B7</key>
+		<key>6925A7C91A62224900DFD69F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

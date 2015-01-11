@@ -1,6 +1,6 @@
 //
-//  BMW_RideShareTests.swift
-//  BMW RideShareTests
+//  BMWrideShareTests.swift
+//  BMWrideShareTests
 //
 //  Created by psxge on 10/01/15.
 //  Copyright (c) 2015 Htd. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class BMW_RideShareTests: XCTestCase {
+class BMWrideShareTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
