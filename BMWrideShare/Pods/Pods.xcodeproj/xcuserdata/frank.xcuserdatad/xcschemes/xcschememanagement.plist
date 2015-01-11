@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-BMWrideShare-CMDQueryStringSerialization.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-BMWrideShare-SSKeychain.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-BMWrideShare-VENCore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-BMWrideShare-Venmo-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-BMWrideShare.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>15545C85506DAEEFF0715638</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3768079C60E142627B0E6C27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C35B9278C9EA733BF9D79E00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8F16B2991F02A7ACD59A8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD2BEFC12A2182F453B03211</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
