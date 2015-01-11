@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C589A81A620E21003692B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C589A71A620E21003692B7 /* AppDelegate.swift */; };
+		69C589AA1A620E21003692B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C589A91A620E21003692B7 /* ViewController.swift */; };
+		69C589AD1A620E21003692B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C589AB1A620E21003692B7 /* Main.storyboard */; };
+		69C589AF1A620E21003692B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C589AE1A620E21003692B7 /* Images.xcassets */; };
+		69C589B21A620E21003692B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C589B01A620E21003692B7 /* LaunchScreen.xib */; };
+		69C589BE1A620E21003692B7 /* BMW_RideShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C589BD1A620E21003692B7 /* BMW_RideShareTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C589B81A620E21003692B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C5899A1A620E20003692B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C589A11A620E20003692B7;
+			remoteInfo = "BMW RideShare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69C589A21A620E20003692B7 /* BMW RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMW RideShare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C589A61A620E21003692B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C589A71A620E21003692B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C589A91A620E21003692B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69C589AC1A620E21003692B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C589AE1A620E21003692B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69C589B11A620E21003692B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		69C589B71A620E21003692B7 /* BMW RideShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMW RideShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C589BC1A620E21003692B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C589BD1A620E21003692B7 /* BMW_RideShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMW_RideShareTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C5899F1A620E20003692B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C589B41A620E21003692B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C589991A620E1F003692B7 = {
+			isa = PBXGroup;
+			children = (
+				69C589A41A620E20003692B7 /* BMW RideShare */,
+				69C589BA1A620E21003692B7 /* BMW RideShareTests */,
+				69C589A31A620E20003692B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C589A31A620E20003692B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C589A21A620E20003692B7 /* BMW RideShare.app */,
+				69C589B71A620E21003692B7 /* BMW RideShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C589A41A620E20003692B7 /* BMW RideShare */ = {
+			isa = PBXGroup;
+			children = (
+				69C589A71A620E21003692B7 /* AppDelegate.swift */,
+				69C589A91A620E21003692B7 /* ViewController.swift */,
+				69C589AB1A620E21003692B7 /* Main.storyboard */,
+				69C589AE1A620E21003692B7 /* Images.xcassets */,
+				69C589B01A620E21003692B7 /* LaunchScreen.xib */,
+				69C589A51A620E20003692B7 /* Supporting Files */,
+			);
+			path = "BMW RideShare";
+			sourceTree = "<group>";
+		};
+		69C589A51A620E20003692B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C589A61A620E21003692B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69C589BA1A620E21003692B7 /* BMW RideShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C589BD1A620E21003692B7 /* BMW_RideShareTests.swift */,
+				69C589BB1A620E21003692B7 /* Supporting Files */,
+			);
+			path = "BMW RideShareTests";
+			sourceTree = "<group>";
+		};
+		69C589BB1A620E21003692B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C589BC1A620E21003692B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C589A11A620E20003692B7 /* BMW RideShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C589C11A620E22003692B7 /* Build configuration list for PBXNativeTarget "BMW RideShare" */;
+			buildPhases = (
+				69C5899E1A620E20003692B7 /* Sources */,
+				69C5899F1A620E20003692B7 /* Frameworks */,
+				69C589A01A620E20003692B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMW RideShare";
+			productName = "BMW RideShare";
+			productReference = 69C589A21A620E20003692B7 /* BMW RideShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C589B61A620E21003692B7 /* BMW RideShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C589C41A620E22003692B7 /* Build configuration list for PBXNativeTarget "BMW RideShareTests" */;
+			buildPhases = (
+				69C589B31A620E21003692B7 /* Sources */,
+				69C589B41A620E21003692B7 /* Frameworks */,
+				69C589B51A620E21003692B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C589B91A620E21003692B7 /* PBXTargetDependency */,
+			);
+			name = "BMW RideShareTests";
+			productName = "BMW RideShareTests";
+			productReference = 69C589B71A620E21003692B7 /* BMW RideShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C5899A1A620E20003692B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Htd;
+				TargetAttributes = {
+					69C589A11A620E20003692B7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					69C589B61A620E21003692B7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 69C589A11A620E20003692B7;
+					};
+				};
+			};
+			buildConfigurationList = 69C5899D1A620E20003692B7 /* Build configuration list for PBXProject "BMW RideShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C589991A620E1F003692B7;
+			productRefGroup = 69C589A31A620E20003692B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C589A11A620E20003692B7 /* BMW RideShare */,
+				69C589B61A620E21003692B7 /* BMW RideShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C589A01A620E20003692B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C589AD1A620E21003692B7 /* Main.storyboard in Resources */,
+				69C589B21A620E21003692B7 /* LaunchScreen.xib in Resources */,
+				69C589AF1A620E21003692B7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C589B51A620E21003692B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C5899E1A620E20003692B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C589AA1A620E21003692B7 /* ViewController.swift in Sources */,
+				69C589A81A620E21003692B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C589B31A620E21003692B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C589BE1A620E21003692B7 /* BMW_RideShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C589B91A620E21003692B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C589A11A620E20003692B7 /* BMW RideShare */;
+			targetProxy = 69C589B81A620E21003692B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C589AB1A620E21003692B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C589AC1A620E21003692B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C589B01A620E21003692B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C589B11A620E21003692B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C589BF1A620E21003692B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C589C01A620E21003692B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C589C21A620E22003692B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BMW RideShare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69C589C31A620E22003692B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BMW RideShare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69C589C51A620E22003692B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BMW RideShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMW RideShare.app/BMW RideShare";
+			};
+			name = Debug;
+		};
+		69C589C61A620E22003692B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BMW RideShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMW RideShare.app/BMW RideShare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C5899D1A620E20003692B7 /* Build configuration list for PBXProject "BMW RideShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C589BF1A620E21003692B7 /* Debug */,
+				69C589C01A620E21003692B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C589C11A620E22003692B7 /* Build configuration list for PBXNativeTarget "BMW RideShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C589C21A620E22003692B7 /* Debug */,
+				69C589C31A620E22003692B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69C589C41A620E22003692B7 /* Build configuration list for PBXNativeTarget "BMW RideShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C589C51A620E22003692B7 /* Debug */,
+				69C589C61A620E22003692B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C5899A1A620E20003692B7 /* Project object */;
+}
